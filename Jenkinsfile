@@ -1,14 +1,17 @@
 pipeline {
   agent any
   stages {
-    stage('abapCI'){
-      steps{
-       abapCi sapPackagename: 'ZGTG_TEST' , withCoverage: false, sapSystemLabel: "B47" 
-      }
-    }
     stage('gctsDeploy') {
       steps {    
-        gctsDeploy script: this
+        gctsDeploy(
+          script: this,
+          host: 'http://slaa9124.btcdev.btc-ag.int:8000',
+          client: '100',
+          abapCredentialsId: 'ABAPUserPasswordCredentialsId',
+          repository: 'rereifsc-gcts4',
+          remoteRepositoryURL: "https://github.com/rereifsc/gCTS4",
+          verbose: true
+        )
       }
     }
   }
