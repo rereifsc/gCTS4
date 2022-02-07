@@ -13,8 +13,6 @@ pipeline {
           verbose: true
         )
       }
-    }
-    
-    }    
+    }   
   }
 }
