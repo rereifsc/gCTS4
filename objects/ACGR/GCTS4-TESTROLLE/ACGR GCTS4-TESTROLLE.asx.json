@@ -11,9 +11,9 @@
     "CREATE_DAT":"2022-02-07",
     "CREATE_TIM":"12:48:50",
     "CREATE_TMP":"0",
-    "CHANGE_USR":"",
-    "CHANGE_DAT":"0000-00-00",
-    "CHANGE_TIM":"00:00:00",
+    "CHANGE_USR":"REREIFSC",
+    "CHANGE_DAT":"2022-02-21",
+    "CHANGE_TIM":"13:27:04",
     "CHANGE_TMP":"0",
     "ATTRIBUTES":""
    }
@@ -107,7 +107,7 @@
     "AGR_NAME":"GCTS4-TESTROLLE",
     "SPRAS":"D",
     "LINE":0,
-    "TEXT":""
+    "TEXT":"Für Testzwecke angelegte Rolle"
    }
   ]
  }
