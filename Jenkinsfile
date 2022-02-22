@@ -5,7 +5,7 @@ pipeline {
       steps {    
         gctsDeploy(
           script: this,
-          host: 'http://slaa9124.btcdev.btc-ag.int:8000',
+          host: 'http://',
           client: '100',
           abapCredentialsId: 'ABAPUserPasswordCredentialsId',
           repository: 'rereifsc-gcts4',
